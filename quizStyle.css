@@ -1,0 +1,29 @@
+
+
+label {
+    padding-left: 5%;
+    font-size: x-large;
+}
+
+input[type = radio]{
+    size: 30px;
+
+}
+
+h3 {
+    font-size: xx-large;
+}
+
+h1 {
+    border-style: dotted;
+}
+
+
+
+.center {
+    width: 10%;
+    margin-left: 45%;
+    margin-right: 45%;
+
+    height: 50px;
+}

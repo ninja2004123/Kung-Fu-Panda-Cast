@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> goodbye </title>
+    </head>
+
+    <link rel="stylesheet" href="goodbye.css">
+
+    <link rel="stylesheet" href="">
+
+    <script>
+        let on = true;
+
+        function mute(){
+
+            if (on == true){
+                document.getElementById("Sound").muted = true;
+                document.getElementById("MuteAndUnmute").style.fill = "red";
+                on = false;
+            } else {
+                document.getElementById("Sound").muted = false;
+                document.getElementById("MuteAndUnmute").style.fill = "black";
+                on = true;
+            }
+        }
+    </script>
+
+    <body style="background-color: rgb(76, 161, 55); overflow: hidden;">
+        <!-- Audio -->
+        <audio id="Sound" controls autoplay="true" loop="true" hidden>
+            <source src="music/oogway-ascends.mp3" type="audio/mpeg">
+        </audio>
+
+        <svg onclick="mute();" id="MuteAndUnmute" style="position: absolute; top:3%; "   width="185%" height="7%" viewBox="0 0 16 16" class="bi bi-volume-mute" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M6.717 3.55A.5.5 0 0 1 7 4v8a.5.5 0 0 1-.812.39L3.825 10.5H1.5A.5.5 0 0 1 1 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06zM6 5.04L4.312 6.39A.5.5 0 0 1 4 6.5H2v3h2a.5.5 0 0 1 .312.11L6 10.96V5.04zm7.854.606a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708l4-4a.5.5 0 0 1 .708 0z"/>
+            <path fill-rule="evenodd" d="M9.146 5.646a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0z"/>
+        </svg>
+        <!-- Audio - end -->
+
+
+        <h1> <i> Goodbye :( </i> </h1>
+
+        <br>
+        <br>
+
+        <p> All good things, must come to an end!
+            And like all good things, this is the end of
+            my first webpage. Before I send u home, how
+            did you like that last question huh?
+            <br>
+            Ha ha, You didn't really think I would make the question
+            that easy huh? But I am not that evil too. Between you
+            and me, <b><i> every answer was correct :) </i> </b>
+            shhh! don't tell anyone!
+            <br>
+            <br>So, back to saying goodbye! I really hope you enjoyed
+            your visit on my page, and hope you learned something!
+            <br>
+            And If you haven't I highly suggest you check out the movie
+            series, they are amazing!
+
+            <br>
+            <br>
+            <br>
+            Goodbye my friend! And have a nice day!
+            <br>
+            <br>
+            - Nikola Kostadinov ❤
+
+        </p>
+
+        <img src="Images/Goodbye.png" alt="Goodbye!">
+
+        <br>
+        <br>
+        <p>
+            <i> "My time has come! You must continue your journey
+                without me." - Master Oogway
+            </i>
+        </p>
+
+    </body>
+</html>
